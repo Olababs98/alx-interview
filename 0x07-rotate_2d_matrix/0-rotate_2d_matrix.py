@@ -8,16 +8,6 @@ def rotate_2d_matrix(matrix):
     """
     if type(matrix) != list:
         return
-#!/usr/bin/python3
-"""2D matrix rotation module.
-"""
-
-
-def rotate_2d_matrix(matrix):
-    """Rotates an m by n 2D matrix in place.
-    """
-    if type(matrix) != list:
-        return
     if len(matrix) <= 0:
         return
     if not all(map(lambda x: type(x) == list, matrix)):
